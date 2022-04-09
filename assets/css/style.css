@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tangerine&display=swap');
+
+@font-face {
+    font-family: "Santio";
+    src: url("../fonts/SANTIO/OTP/Santio\ Bold.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*==== GENERAL STYLES ====
+
+FONTS
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive;
+font-family: "Santio";
+
+COLOR
+
+#e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
+
+============================
+            HEADER
+============================*/
+
+body { 
+    margin: 10em;
+    background-size: 10% cover;
+    background-repeat: no-repeat;
+    font-family: "Santio";
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/cleo-topper.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* SUN HEART */
+header img {
+    width: 60%;
+}
+
+header nav { 
+    position: absolute;
+    margin: -17vh 75vw;
+}
+
+/* Take Aktion */
+header nav a { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: underline yellow;
+}
+
+/* THERE ARE MILLIONS OF CLEOS */
+h1 {
+    font-family: "Santio";
+    font-size: 4em;
+    color: #fff;
+    width: 17vw;
+    margin-bottom: 5vh;
+}
+
+/* Scroll to learn more ✓ */
+header a { 
+    font-family: 'Tangerine', cursive;
+    font-size: 2em;
+    color: #E7BC0E;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+header p { 
+    font-family: "Santio";
+    font-size: 3em;
+    color: #6bc1a3;
+    width: 60vw;
+    margin: 50vh 10vw;
+    line-height: 1.5em;
+}
+
+/* THE WOMEN WHO CARE */
+span { 
+    background: #29272A;
+    color: #fff;
+    padding: 0.2em;
+}
+
+/*============================
+            MAIN
+============================*/
+/* IMAGE */
+main section:first-child img,
+main section:nth-of-type(2) img,
+main section:nth-of-type(3) img {
+    width: 20%;
+    margin: 30em 0 8em 0;
+}
+
+/* SECTION 1*/
+main section:first-child h2 {
+    font-size: 18em;
+    color: #E7BC0E;
+    margin: 0.1em 0;
+}
+
+main section:first-child p {
+    font-size: 5em;
+    color: #E7BC0E;
+}
+
+/* SECTION 2*/
+main section:nth-of-type(2) h3 {
+    font-size: 18em;
+    color: #CA90B6;
+    margin: 0.1em 0;
+}
+
+main section:nth-of-type(2) p {
+    font-size: 5em;
+    color: #CA90B6;
+}
+
+/* SECTION 3 */
+main section:nth-of-type(3) h4 {
+    font-size: 18em;
+    color: #6BC1A3;
+    margin: 0.1em 0;
+}
+
+main section:nth-of-type(3) p {
+    font-size: 5em;
+    color: #6BC1A3;
+}
+
+main section:nth-of-type(3) article {
+    font-size: 3em;
+    color: #7EB7E1;
+    width: 65%;
+    margin: 10em;
+    line-height: 1.5em;
+}
+
+/* SECTION 4 */
+main section:nth-of-type(4) {
+    background: #fff;
+    margin: -10em;
+}
+
+main section:nth-of-type(4) img {
+    width: 100%;
+}
+
+/* SECTION 5 */
+footer {
+    background: #000;
+    margin: 1em -10em 10em -10em;
+    padding: 40em 10em;
+}
+
+footer h5 {
+    font-size: 5em;
+    color: #fff;
+    width: 50%;
+}
+
+/* DONATE */
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.button:hover {
+    box-shadow: 5px 5px #fff;
+}
+
+/* Website inspired */
+footer div {
+    margin: 5em 0em 30em 0;
+}
+
+footer span {
+    font-family: 'Roboto', sans-serif;
+    background: #000;
+    margin: 0 30em;
+}
+
+footer span a {
+    text-decoration: none;
+    color: #6BC1A3;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
