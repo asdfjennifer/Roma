@@ -17,7 +17,7 @@ Verwendete Technologien:
 - CSS
 
 
-Ergebnis: https://asdfjennifer.github.io/Projekt-Roma/#
+Ergebnis: https://asdfjennifer.github.io/Roma/#
 
 Note: Take Action, Strandbild noch überarbeiten
 
